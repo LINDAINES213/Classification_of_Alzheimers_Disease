@@ -4,3 +4,4 @@ new_data/
 *.pth
 venv/
 *.npy
+*.h5
