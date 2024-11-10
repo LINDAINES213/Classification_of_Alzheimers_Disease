@@ -5,3 +5,4 @@ new_data/
 venv/
 *.npy
 *.h5
+myenv
