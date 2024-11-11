@@ -6,3 +6,4 @@ venv/
 *.npy
 *.h5
 myenv
+*.json
