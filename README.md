@@ -4,6 +4,7 @@ Este proyecto implementa un modelo de red neuronal convolucional (CNN) utilizand
 
 ## Tabla de Contenidos
 - [Descripción del Proyecto](#descripción-del-proyecto)
+- [Propuesta de Solución](#propuesta-de-solución)
 - [Requisitos](#requisitos)
 - [Uso](#uso)
 - [Resultados](#resultados)
@@ -11,11 +12,14 @@ Este proyecto implementa un modelo de red neuronal convolucional (CNN) utilizand
 ## Descripción del Proyecto
 El Alzheimer es una enfermedad neurodegenerativa que afecta a millones de personas en todo el mundo. La detección temprana es crucial para mejorar la calidad de vida de los pacientes y planificar un tratamiento adecuado. Este proyecto aplica técnicas de visión por computadora con modelos de aprendizaje profundo para clasificar imágenes cerebrales en distintas categorías (normal, leve, moderado y severo), basándose en el análisis de patrones en las imágenes de resonancia magnética (MRI).
 
+## Propuesta de Solución
+La propuesta mostrada por el grupo es de realizar modelos de redes neuronales convolucionales cuya entrada sean imágenes de resonancia magnética del cerebro humano y que sea capaz de clasificar la enfermedad de 
+Alzheimer en cuatro categorías: No Demencia, Demencia Muy Leve, Demencia Leve y Demencia Moderada. Utilizando también técnicas de data augmentation y un balanceo de datos.
+
 El proyecto incluye tres modelos:
 1. **Modelo CNN Personalizado**: Una arquitectura CNN desarrollada desde cero, adaptada para trabajar con imágenes de una sola canal (escala de grises) y optimizada para detectar patrones en MRI.
 2. **Modelo Basado en ResNet50**: Utiliza una arquitectura preentrenada de ResNet50 y está ajustado a nuestro conjunto de datos para la clasificación de imágenes médicas.
 3. **Modelo Basado en MobileNetV2**: Utiliza una arquitectura preentrenada de ResNet50 y está ajustado a nuestro conjunto de datos para la clasificación de imágenes médicas.
-
 
 ## Requisitos
 Para ejecutar este proyecto, necesitarás las siguientes bibliotecas y paquetes:
